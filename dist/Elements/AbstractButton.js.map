@@ -1,0 +1,1 @@
+{"version":3,"file":"AbstractButton.js","sourceRoot":"","sources":["../../src/Elements/AbstractButton.ts"],"names":[],"mappings":";;;AAAA;IAGI,wBAAsB,IAAY;QAC9B,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;IAES,gCAAO,GAAjB;QACI,OAAO,IAAI,CAAC,IAAI,CAAC;IACrB,CAAC;IAED,+BAAM,GAAN;QACI,MAAM,IAAI,KAAK,CAAC,2BAA2B,CAAC,CAAA;IAChD,CAAC;IACL,qBAAC;AAAD,CAAC,AAdD,IAcC;AAdqB,wCAAc"}
