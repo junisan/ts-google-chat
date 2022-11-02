@@ -38,9 +38,9 @@ sender.send(message);
 The `Message` allows you to add cards, sections and some UI components that allow you to create very attractive interfaces and even interact with the user.
 
 ```javascript
-import {ButtonGroup, Card, GoogleChatSender, Icon, KeyValue, Message, Section, TextButton} from "./dist"
+import {ButtonGroup, Card, GoogleChatSender, Icon, KeyValue, Message, Section, TextButton} from "ts-google-chat"
 // or 
-const {ButtonGroup, Card, GoogleChatSender, Icon, KeyValue, Message, Section, TextButton} = require('./dist')  
+const {ButtonGroup, Card, GoogleChatSender, Icon, KeyValue, Message, Section, TextButton} = require('ts-google-chat')  
 
 
 const train = new KeyValue({topLabel: 'Train Number', content: '12345A', icon: new Icon('TRAIN')});  

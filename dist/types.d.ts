@@ -1,5 +1,8 @@
-import { AxiosInstance } from "axios";
+/// <reference types="node" />
+/// <reference types="node" />
 import { Icon } from "./Elements/Icon";
+import { RequestOptions } from "https";
+import * as http from "http";
 export interface IGoogleMessage {
     render: () => Object;
 }
@@ -128,9 +131,12 @@ export interface IKeyValueResult extends IWidgetResult {
 export interface IKeyValue extends IWidget {
     render(): IKeyValueResult;
 }
+interface HttpsClient {
+    request: (options: RequestOptions, cb: (res: http.IncomingMessage) => void) => http.ClientRequest;
+}
 export interface GoogleChatSenderConstructorOptions {
     url: string;
-    axiosInstance?: AxiosInstance;
+    client?: HttpsClient;
 }
 export interface GoogleChatSuccessResponse {
     name: string;
@@ -144,3 +150,4 @@ export interface GoogleChatSuccessResponse {
         displayName: string;
     };
 }
+export {};
