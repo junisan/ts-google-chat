@@ -1,7 +1,7 @@
 import {expect} from "chai";
 import 'mocha';
 import {describe} from "mocha";
-import { TextButton} from "../../dist";
+import { TextButton} from "../../src";
 
 
 describe('TextButton', () => {

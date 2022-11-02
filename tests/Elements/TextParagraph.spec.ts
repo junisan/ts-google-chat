@@ -1,7 +1,7 @@
 import {expect} from "chai";
 import 'mocha';
 import {describe} from "mocha";
-import {TextParagraph} from "../../dist";
+import {TextParagraph} from "../../src";
 
 
 describe('TextParagraph', () => {

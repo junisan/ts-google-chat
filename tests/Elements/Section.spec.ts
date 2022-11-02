@@ -1,7 +1,7 @@
 import {expect} from "chai";
 import 'mocha';
 import {describe} from "mocha";
-import {Image, Section} from "../../dist";
+import {Image, Section} from "../../src";
 
 
 describe('Section', () => {
